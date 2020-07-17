@@ -1,0 +1,9 @@
+CREATE TABLE zip_codes (
+  id SERIAL PRIMARY KEY,
+  zip_lookup_code VARCHAR NOT NULL,
+  state VARCHAR NOT NULL,
+  county VARCHAR NOT NULL,
+  city VARCHAR NOT NULL,
+  zip_3 VARCHAR NOT NULL,
+  zip_5 VARCHAR NOT NULL
+)
